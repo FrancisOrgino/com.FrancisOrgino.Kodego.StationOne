@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "631366562380",
+    "project_id": "stationonebarapp",
+    "storage_bucket": "stationonebarapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631366562380:android:6c44a738735c976a033ae9",
+        "android_client_info": {
+          "package_name": "com.kodego.StationOneBar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631366562380-tih64s8lv4duec7lkch5mh9uklofc2m3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0yb6L2x1TAXZOOTUhPPXSXuqAMLVamHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631366562380-tih64s8lv4duec7lkch5mh9uklofc2m3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
