@@ -15,28 +15,28 @@ class AdminLogin : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.adminLoginButton.setOnClickListener {
-            var adminUserName: String = binding.textAdminUserName.toString()
-            var adminPassword: String = binding.textAdminPassword.toString()
+            var adminUserName: String = binding.textAdminUserName.text.toString()
+            var adminPassword: String = binding.textAdminPassword.text.toString()
 
             adminCredentials(adminUserName,adminPassword)
     }
 }
     fun adminCredentials(adminUserName: String, adminPassword: String){
 
-        val correctAdminUsername: String = "junjun123"
-        val correctAdminPassword: String = "kitchen123"
+        val correctAdminUsername: String = "manager123"
+        val correctAdminPassword: String = "admin123"
         if((correctAdminUsername == adminUserName) && (correctAdminPassword == adminPassword)){
 
             val intentAdminLogin = Intent (this,AdminInterface::class.java)
             startActivity(intentAdminLogin)
             finish()
-            Toast.makeText(applicationContext,"ADMIN LOGGED IN", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext,"ADMIN LOGGED IN",Toast.LENGTH_SHORT).show()
 
         }else{
-            Toast.makeText(applicationContext,"INVALID USER", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext,"INVALID USER",Toast.LENGTH_SHORT).show()
 
         }
 
-
     }
+
 }

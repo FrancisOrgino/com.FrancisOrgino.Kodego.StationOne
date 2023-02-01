@@ -24,7 +24,7 @@ class LoginActivity : AppCompatActivity() {
         }
 
         binding.btnAdminLogin.setOnClickListener {
-            val intentAdminLogin = Intent(this,KitchenLogin::class.java)
+            val intentAdminLogin = Intent(this,AdminLogin::class.java)
             startActivity(intentAdminLogin)
         }
     }

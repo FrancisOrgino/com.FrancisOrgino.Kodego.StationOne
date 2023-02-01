@@ -27,18 +27,18 @@ class CashierLogin : AppCompatActivity() {
     fun cashierCredentials(cashierUserName: String, cashierPassword: String) {
 
         val correctCashierUsername: String = "junay123"
-        val correctCashierPassword: String = "cashier123"
-            if((correctCashierUsername == cashierUserName) && (correctCashierPassword == cashierPassword)){
+        val correctCashierPassword: String = "12345678"
+        if((correctCashierUsername == cashierUserName) && (correctCashierPassword == cashierPassword)){
 
-                val intentCashierLogin = Intent (this,CashierInterface::class.java)
-                startActivity(intentCashierLogin)
-                finish()
-                Toast.makeText(applicationContext,"CASHIER LOGGED IN",Toast.LENGTH_SHORT).show()
+            val intentCashierLogin = Intent (this,CashierInterface::class.java)
+            startActivity(intentCashierLogin)
+            finish()
+            Toast.makeText(applicationContext,"CASHIER LOGGED IN",Toast.LENGTH_SHORT).show()
 
-            }else{
-                Toast.makeText(applicationContext,"INVALID USER",Toast.LENGTH_SHORT).show()
+        }else{
+            Toast.makeText(applicationContext,"INVALID USER",Toast.LENGTH_SHORT).show()
 
-            }
+        }
 
     }
 

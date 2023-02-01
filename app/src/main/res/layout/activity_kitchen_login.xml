@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/Common2"
+    android:background="@drawable/home01"
     tools:context=".KitchenLogin">
 
     <Button
@@ -32,7 +32,7 @@
         android:textColorHint="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textKitchenUserName"
-        app:layout_constraintVertical_bias="0.045"
+        app:layout_constraintVertical_bias="0.186"
         tools:layout_editor_absoluteX="16dp" />
 
     <EditText

@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:631366562380:android:6c44a738735c976a033ae9",
         "android_client_info": {
-          "package_name": "com.kodego.StationOneBar"
+          "package_name": "com.kodego.app.inventory.app.orgino.stationone"
         }
       },
       "oauth_client": [
